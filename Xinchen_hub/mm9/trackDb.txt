@@ -17,7 +17,6 @@ parent composite
 view signal
 visibility full
 
-
 track Unstimulated_sample.plus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/Unstimulated_sample.plus.bigWig
 shortLabel Unstimulated_sample_plus
@@ -25,7 +24,7 @@ longLabel Unstimulated_sample_plus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=unstimulated_control strand=pos
+subGroups time_course=Unstimulated_sample strand=pos
 
 track Unstimulated_sample.minus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/Unstimulated_sample.minus.bigWig
@@ -34,7 +33,7 @@ longLabel Unstimulated_sample_minus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=unstimulated_control strand=neg
+subGroups time_course=Unstimulated_sample strand=neg
 
 track LPS_stimulation_2hr.plus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/LPS_stimulation_2hr.plus.bigWig
@@ -43,7 +42,7 @@ longLabel LPS_stimulation_2hr_plus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=LPS_2h strand=pos
+subGroups time_course=LPS_stimulation_2hr strand=pos
 
 track LPS_stimulation_2hr.minus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/LPS_stimulation_2hr.minus.bigWig
@@ -52,7 +51,7 @@ longLabel LPS_stimulation_2hr_minus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=LPS_2h strand=neg
+subGroups time_course=LPS_stimulation_2hr strand=neg
 
 track LPS_stimulation_4hr.plus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/LPS_stimulation_4hr.plus.bigWig
@@ -61,7 +60,7 @@ longLabel LPS_stimulation_4hr_plus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=LPS_4h strand=pos
+subGroups time_course=LPS_stimulation_4hr strand=pos
 
 track LPS_stimulation_4hr.minus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/LPS_stimulation_4hr.minus.bigWig
@@ -70,8 +69,7 @@ longLabel LPS_stimulation_4hr_minus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=LPS_4h strand=neg
-
+subGroups time_course=LPS_stimulation_4hr strand=neg
 
 track LPS_stimulation_7hr.plus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/LPS_stimulation_7hr.plus.bigWig
@@ -80,7 +78,7 @@ longLabel LPS_stimulation_7hr_plus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=LPS_7h strand=pos
+subGroups time_course=LPS_stimulation_7hr strand=pos
 
 track LPS_stimulation_7hr.minus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/LPS_stimulation_7hr.minus.bigWig
@@ -89,7 +87,7 @@ longLabel LPS_stimulation_7hr_minus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=LPS_7h strand=neg
+subGroups time_course=LPS_stimulation_7hr strand=neg
 
 track LPS_stimulation_21hr.plus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/LPS_stimulation_21hr.plus.bigWig
@@ -98,7 +96,7 @@ longLabel LPS_stimulation_21hr_plus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=LPS_21h strand=pos
+subGroups time_course=LPS_stimulation_21hr strand=pos
 
 track LPS_stimulation_21hr.minus.bigWig
 bigDataUrl https://raw.githubusercontent.com/Xinchen-github/Macrophage_hub/main/Xinchen_hub/mm9/LPS_stimulation_21hr.minus.bigWig
@@ -107,6 +105,4 @@ longLabel LPS_stimulation_21hr_minus
 type bigWig 
 parent signalviewtrack
 visibility full
-subGroups time_course=LPS_21h strand=neg
-
-
+subGroups time_course=LPS_stimulation_21hr strand=neg
