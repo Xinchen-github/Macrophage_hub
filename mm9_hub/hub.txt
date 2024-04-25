@@ -1,5 +1,0 @@
-hub mm9_macrophage_hub 
-shortLabel mm9_macrophage_hub
-longLabel mm9_macrophage_hub
-genomesFile genomes.txt
-email x.zou23@lms.mrc.ac.uk
