@@ -69,6 +69,18 @@ compositeTrack on
     autoScale on
 
 
+    track Macrophage.minus
+    parent minus on
+    bigDataUrl CAGE/Macrophage.minus.bigWig
+    shortLabel Macrophage.minus
+    longLabel Macrophage.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
 track plus
 shortLabel plus
 longLabel plus
@@ -130,6 +142,19 @@ compositeTrack on
     bigDataUrl CAGE/Unstimulated_sample.plus.bigWig
     shortLabel Unstimulated_sample.plus
     longLabel Unstimulated_sample.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+
+    track Macrophage.plus
+    parent plus on
+    bigDataUrl CAGE/Macrophage.plus.bigWig
+    shortLabel Macrophage.plus
+    longLabel Macrophage.plus
     type bigWig
     color 255,0,0
     visibility full
